@@ -3,9 +3,9 @@
 ## 🎯 Objective
 To implement and analyze the performance of clustering algorithms on the Human Activity Recog
 nition dataset:
-- Model A: K-Means Clustering.
-- Model B: DBSCAN (Density-Based Spatial Clustering of Applications with Noise).
-- Model C: Hierarchical Agglomerative Clustering (HAC).
+- **Model A:** K-Means Clustering.
+- **Model B:** DBSCAN (Density-Based Spatial Clustering of Applications with Noise).
+- **Model C:** Hierarchical Agglomerative Clustering (HAC).
 and to visualize and compare the clusters formed by each algorithm, report results, and
 analyze performance.
 
@@ -67,19 +67,12 @@ ml-expt-7/
   ```
   - Navigate to the Experiment-7 folder and open a notebook in your browser
 
-## 📈 Model Performance (No-PCA vs With-PCA)
-| Model              | Performance (No-PCA)| Performance (With-PCA) |
-|--------------------|---------------------|------------------------|
-| SVM                | 0.9314              | 0.9245                 |
-| Naive Bayes        | 0.7254              | 0.8329                 |
-| KNN                | 0.9108              | 0.9085                 |
-| Logistic Regression| 0.9130              | 0.9176                 |
-| Decision Tree      | 0.8902              | 0.8741                 |
-| Random Forest      | 0.9245              | 0.9085                 |
-| AdaBoost           | 0.9153              | 0.9016                 |
-| Gradient Boosting  | 0.9314              | 0.9085                 |
-| XGBoost            | 0.9405              | 0.9108                 |
-| Stacked Models     | 0.9199              | 0.9199                 |
+## 📈 Clustering Algorithm Performance
+| Algorithm     | Silhouette | Davies-Bouldin | Calinski-Harabasz | ARI    | NMI    |
+|---------------|------------|----------------|-------------------|--------|--------|
+| K-Means       | 0.3274     | 1.7458         | 3605.2632         | 0.3279 | 0.5163 |
+| DBSCAN        | 0.1411     | 2.8599         | 825.3915          | 0.2760 | 0.4262 |
+| Hierarchical  | 0.2548     | 1.9275         | 3350.0213         | 0.3422 | 0.5397 |
 
 ## 🙌 Credits
 
