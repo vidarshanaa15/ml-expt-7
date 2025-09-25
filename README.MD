@@ -1,4 +1,4 @@
-# Experiment 5:  Dimensionality Reduction and Model Evaluation (With and Without PCA)
+# Experiment 7:   Clustering Human Activity Recognition Data using K-Means, DBSCAN, and Hierarchical Clustering
 
 ## 🎯 Objective
 To implement and analyze the performance of clustering algorithms on the Human Activity Recog
